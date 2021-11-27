@@ -1,0 +1,362 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Sidebar template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="main.js" ></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="page-wrapper chiller-theme toggled">
+  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <!-- <a href="#">Dashboard</a> -->
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-header">
+        <div class="user-pic">
+          <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
+            alt="User picture">
+        </div>
+        <div class="user-info">
+          <span class="user-name">Accountant
+            <strong>John</strong>
+          </span>
+          <span class="user-role">Administrator</span>
+          <span class="user-status">
+            <i class="fa fa-circle"></i>
+            <span>Online</span>
+          </span>
+        </div>
+      </div>
+      <!-- sidebar-header  -->
+     
+      <!-- sidebar-search  -->
+      <div class="sidebar-menu">
+        <ul>
+          <li class="header-menu">
+            <span>General</span>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-shopping-cart"></i>
+              <span>Income /Expediture</span>
+             
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Income
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Expediture</a>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-tachometer-alt"></i>
+              <span>Forms</span>
+              <span class="badge badge-pill badge-warning">New</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Form One
+                    <span class="badge badge-pill badge-success">Pro</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Form One</a>
+                </li>
+                <li>
+                  <a href="#">Form One</a>
+                </li>
+                <li>
+                    <a href="#">Form One</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+       
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="far fa-gem"></i>
+              <span>Fee Structures</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Form one</a>
+                </li>
+                <li>
+                  <a href="#">Form Two</a>
+                </li>
+                <li>
+                  <a href="#">Form Three</a>
+                </li>
+                <li>
+                  <a href="#">Form Four</a>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-chart-line"></i>
+              <span>Add Payments</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Pie chart</a>
+                </li>
+                <li>
+                  <a href="#">Line chart</a>
+                </li>
+                <li>
+                  <a href="#">Bar chart</a>
+                </li>
+                <li>
+                  <a href="#">Histogram</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+         
+          <li class="header-menu">
+            <span>Extra</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-book"></i>
+              <span>Documentation</span>
+              <span class="badge badge-pill badge-primary">Beta</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-calendar"></i>
+              <span>Calendar</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-folder"></i>
+              <span>Examples</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+  
+  </nav>
+  <!-- sidebar-wrapper  -->
+  <main class="page-content">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+          <div class="card-counter primary">
+            <i class="fa fa-database"></i>
+            <span class="count-numbers">12</span>
+            <span class="count-name">Students In Form One</span>
+          </div>
+        </div>
+    
+        
+    
+        <div class="col-md-3">
+          <div class="card-counter info">
+            <i class="fa fa-users"></i>
+            <span class="count-numbers">35</span>
+            <span class="count-name">Users</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-counter info">
+              <i class="fa fa-users"></i>
+              <span class="count-numbers">35</span>
+              <span class="count-name">Users</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card-counter info">
+              <i class="fa fa-users"></i>
+              <span class="count-numbers">35</span>
+              <span class="count-name">Users</span>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <!-- table  -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-text">Add Payment Desscription</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Description</label>
+                                <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="payment Description">
+
+                                <label for="exampleFormControlInput1">Amount</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="5000">
+                              </div>
+ 
+                              <button class="btn btn-outline-success">Add payment Description</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Define Fees for Certain Class</h4>
+                        <form>
+                              
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Select Form</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option> Form  1</option>
+                                <option> Form  2</option>
+                                <option> Form  3</option>
+                                <option> Form  3</option>
+                                
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Select Term</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option> Term one</option>
+                                <option> Term Two</option>
+                                <option> Term Three</option>
+                                
+                              </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Select Year</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option> Year 2021</option>
+                                  <option> Year 2021</option>
+                                  <option> Year 2021</option>
+                                  
+                                </select>
+                              </div>
+                        
+                            
+                          </form>
+                    </div>
+
+                    
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Is Checked</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    
+                                    <td>Tution</td>
+                                    <td>5000</td>
+                                    <td>
+                                    
+                                        
+                                            <input type="checkbox">
+                                        
+                                        
+                                        </td>
+                                  </tr>
+
+                                  <!-- total -->
+
+                                  
+                                 
+                                </tbody>
+
+                                
+                              </table>
+
+                              <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">$</span>
+                                  <span class="input-group-text">Total</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="20,000/=" readonly>
+                                <div class="input-group-append">
+                                   
+                                    <span class="input-group-text"><button class="btn btn-outline-success">Submit</button></span>
+                                  </div>
+                              </div>
+                        </div>
+                    
+                </div>
+   
+            </div>
+        </div>
+    </div>
+
+  </main>
+  <!-- page-content" -->
+</div>
+<!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

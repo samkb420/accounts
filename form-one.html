@@ -1,0 +1,344 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Sidebar template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="main.js" ></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="page-wrapper chiller-theme toggled">
+  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <!-- <a href="#">Dashboard</a> -->
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-header">
+        <div class="user-pic">
+          <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
+            alt="User picture">
+        </div>
+        <div class="user-info">
+          <span class="user-name">Accountant
+            <strong>John</strong>
+          </span>
+          <span class="user-role">Administrator</span>
+          <span class="user-status">
+            <i class="fa fa-circle"></i>
+            <span>Online</span>
+          </span>
+        </div>
+      </div>
+      <!-- sidebar-header  -->
+     
+      <!-- sidebar-search  -->
+      <div class="sidebar-menu">
+        <ul>
+          <li class="header-menu">
+            <span>General</span>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-shopping-cart"></i>
+              <span>Income /Expediture</span>
+             
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Income
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Expediture</a>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-tachometer-alt"></i>
+              <span>Forms</span>
+              <span class="badge badge-pill badge-warning">New</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Form One
+                    <span class="badge badge-pill badge-success">Pro</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Form One</a>
+                </li>
+                <li>
+                  <a href="#">Form One</a>
+                </li>
+                <li>
+                    <a href="#">Form One</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+       
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="far fa-gem"></i>
+              <span>Fee Structures</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Form one</a>
+                </li>
+                <li>
+                  <a href="#">Form Two</a>
+                </li>
+                <li>
+                  <a href="#">Form Three</a>
+                </li>
+                <li>
+                  <a href="#">Form Four</a>
+                </li>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-chart-line"></i>
+              <span>Add Payments</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Pie chart</a>
+                </li>
+                <li>
+                  <a href="#">Line chart</a>
+                </li>
+                <li>
+                  <a href="#">Bar chart</a>
+                </li>
+                <li>
+                  <a href="#">Histogram</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+         
+          <li class="header-menu">
+            <span>Extra</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-book"></i>
+              <span>Documentation</span>
+              <span class="badge badge-pill badge-primary">Beta</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-calendar"></i>
+              <span>Calendar</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-folder"></i>
+              <span>Examples</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+  
+  </nav>
+  <!-- sidebar-wrapper  -->
+  <main class="page-content">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+          <div class="card-counter primary">
+            <i class="fa fa-database"></i>
+            <span class="count-numbers">12</span>
+            <span class="count-name">Students In Form One</span>
+          </div>
+        </div>
+    
+        
+    
+        <div class="col-md-6">
+          <div class="card-counter info">
+            <i class="fa fa-users"></i>
+            <span class="count-numbers">35</span>
+            <span class="count-name">Users</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- table  -->
+    <div class="table-responsive">
+        <table class="table table-sm table-hover table-striped table-bordered">
+            <tr>
+                <th>id</th>
+                 <th>Full name</th>
+                  <th>Reg Number</th>
+                 <td colspan="9">Year</td>
+                 <th colspan="2">Action</th>
+                 
+               </tr>
+               <tr>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td colspan="3">Team 1</td>
+                 <td colspan="3">Team 2</td>
+                 <td colspan="3">Team 3</td>
+               </tr>
+                <tr>
+                 <td>1</td>
+                 <td>Smith</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                  <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>43</td>
+                 <td>
+
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                    Add payment
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Add Payment for Sam</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- form -->
+
+                            <form>
+                              
+                              <div class="form-group">
+                                <label for="exampleFormControlSelect1">Select Team</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option> Term 1</option>
+                                  <option> Term 2</option>
+                                  <option> Term 3</option>
+                                  
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlSelect1">Select Year</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option> Year 2021</option>
+                                  <option> Year 2021</option>
+                                  <option> Year 2021</option>
+                                  
+                                </select>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="exampleFormControlInput1">Transaction code</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Sch128YQ">
+                              </div>
+                            </form>
+                        
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-outline-success">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </td>
+                 <td>
+                   <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModalone">
+                      View payment
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalone" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Payment Reciept for Sam</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              <!-- form -->
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-outline-danger">Print</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+               </tr>
+          </table>
+    </div>
+  </main>
+  <!-- page-content" -->
+</div>
+<!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
